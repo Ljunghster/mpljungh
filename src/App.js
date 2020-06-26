@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom'
 import PageOne from './pages/PageOne'
 import PageTwo from './pages/PageTwo'
-import CountContext from './utils/CountContext'
+import CountContext from './utils/context'
 import {
   Navbar,
   NavbarBrand,
