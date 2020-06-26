@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom'
 import PageOne from './pages/PageOne'
 import PageTwo from './pages/PageTwo'
-import CountContext from './utils/context'
+import context from './utils/context'
 import {
   Navbar,
   NavbarBrand,
@@ -23,7 +23,7 @@ class App extends Component {
 
   render() {
     return (
-      <CountContext.Provider value={this.state}>
+      <context.Provider value={this.state}>
         <Router>
           <div>
             <Navbar color="light">
@@ -61,7 +61,7 @@ class App extends Component {
             </Switch>
           </div>
         </Router>
-      </CountContext.Provider>
+      </context.Provider>
     )
   }
 }
