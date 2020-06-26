@@ -17,10 +17,10 @@ const pageOne = () => {
       </Row>
       <Row>
         <Col>
-          <Increment />
+          <p>Email: mpljungh@gmail.com</p>
         </Col>
         <Col>
-          <Decrement />
+          <p>Call: 9492742774</p>
         </Col>
       </Row>
     </Container>
