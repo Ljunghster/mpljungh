@@ -1,5 +1,5 @@
 import React from 'react'
-import context from '../../utils/context'
+import context from '../../utils/context/context'
 
 const Display = () => {
   return(
