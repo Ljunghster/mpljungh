@@ -6,8 +6,8 @@ import {
   Route,
   BrowserRouter as Router
 } from 'react-router-dom'
-import PageOne from './pages/PageOne'
-import PageTwo from './pages/PageTwo'
+import pageOne from './pages/pageOne'
+import pageTwo from './pages/pageTwo'
 import context from './utils/context'
 import {
   Navbar,
@@ -42,7 +42,7 @@ class App extends Component {
                 </NavItem>
                 <NavItem>
                   <Button color="info">
-                    <Link to="/pagetwo" className="navLinks">
+                    <Link to="/pageTwo" className="navLinks">
                       Page Two
                     </Link>
                   </Button>
@@ -54,7 +54,7 @@ class App extends Component {
               <Route exact path="/">
                 <PageOne />
               </Route>
-              <Route path="/pagetwo">
+              <Route path="/pageTwo">
                 <PageTwo />
               </Route>
 

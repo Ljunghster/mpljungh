@@ -1,14 +1,10 @@
 import React from 'react'
-import context from '../../utils/context/context'
+import context from '../../utils/context'
 
 const Display = () => {
   return(
     <context.Consumer>
-      {
-        ({ count }) => (
-          <h1>Count: {count}</h1>
-          )
-      }
+          <h1>From the desk of 007</h1>
     </context.Consumer>
   )
 }
