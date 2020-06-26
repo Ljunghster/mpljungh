@@ -52,10 +52,10 @@ class App extends Component {
             <Switch>
 
               <Route exact path="/">
-                <PageOne />
+                <pageOne />
               </Route>
               <Route path="/pageTwo">
-                <PageTwo />
+                <pageTwo />
               </Route>
 
             </Switch>
